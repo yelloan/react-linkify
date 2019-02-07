@@ -71,9 +71,9 @@ class Linkify extends React.Component<Props, {}> {
 
   render(): React.Node {
     return (
-      <React.Fragment>
+      <span>
         {this.parse(this.props.children)}
-      </React.Fragment>
+      </span>
     );
   }
 }
