@@ -70,11 +70,7 @@ class Linkify extends React.Component<Props, {}> {
   }
 
   render(): React.Node {
-    return (
-      <span>
-        {this.parse(this.props.children)}
-      </span>
-    );
+    return this.parse(this.props.children);
   }
 }
 
